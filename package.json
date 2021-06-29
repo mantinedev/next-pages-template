@@ -1,0 +1,30 @@
+{
+  "name": "mantine-next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/core": "^1.4.0-alpha.1",
+    "@mantine/dates": "^1.4.0-alpha.1",
+    "@mantine/hooks": "^1.4.0-alpha.1",
+    "@mantine/notifications": "^1.4.0-alpha.1",
+    "@mantine/prism": "^1.4.0-alpha.1",
+    "dayjs": "^1.10.5",
+    "next": "11.0.1",
+    "prism-react-renderer": "^1.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-jss": "^10.7.1"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.11",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.1",
+    "typescript": "4.3.4"
+  }
+}
