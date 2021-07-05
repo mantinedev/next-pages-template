@@ -72,13 +72,14 @@ export default function Home() {
           everything that is not required for your application
         </Text>
         <Group position="center">
-          <Button component="a" href="https://mantine.dev">
+          <Button component="a" href="https://mantine.dev" size="lg">
             Mantine docs
           </Button>
           <Button
             component="a"
             href="https://mantine.dev/theming/theming-context/"
             variant="light"
+            size="lg"
           >
             Change theme
           </Button>
@@ -151,6 +152,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/mantinedev"
+          size="lg"
           fullWidth
           styles={{
             root: {
