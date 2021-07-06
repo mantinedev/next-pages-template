@@ -101,40 +101,40 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
-"@mantine/core@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.0.1.tgz#f4e53d12e5b998af534113f02bb1fe135b23c5f0"
-  integrity sha512-UHzIQGuEpC4PziectGtbTjE3xXEsbGkEB2gJoZo+sXL5ldwIX20ZoZ1QIpk0qSE+mquva3A4YYd4hd5idVaB0g==
+"@mantine/core@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.0.2.tgz#ca512f20a120dea5eda35b420f8f4e5144ee1821"
+  integrity sha512-FDyZgTyuyZbmKE8e7OYDXAZAlDPaIPheHqKNM/mWd8b9nU8nVJlzq3cTYW75RsOmMojDLQqto2ysQ7AS0aHS3A==
   dependencies:
     clsx "^1.1.1"
     normalize-jss "^4.0.0"
     react-textarea-autosize "^8.3.2"
     react-transition-group "^4.4.2"
 
-"@mantine/dates@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.0.1.tgz#0eed8d6c790938936bb148afcb8d4f56a1791b81"
-  integrity sha512-m/mOnpDx9K6XbPWMezyeITxEgINzvvhH8er8uQBsgmDZb6XNCLWbyva3mXmKT8JXj1PsEzb7llCSPdIJ8nILyA==
+"@mantine/dates@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.0.2.tgz#d2c7c82951b0dfaa890a1dd069837973e4e01b5d"
+  integrity sha512-pS3+1La588sLjRPec62AcTzc2ib0CkMwJ1SyqYZY1FoYo+SMhJU+YstUlyfod0uL5djDAk78f5NEww9w0NrAhQ==
   dependencies:
     clsx "^1.1.1"
 
-"@mantine/hooks@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.0.1.tgz#a9cb750df2f579698b0c3cac3192cbb19642e471"
-  integrity sha512-4OzCsH3bqbgU6exx9s2aU11I4xxGxG8jY6KfPQVHSTcmGgKJPUlwXaqNIT0IxoEvs4ffI9LZLX0Lr/DHyNXB4g==
+"@mantine/hooks@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.0.2.tgz#4eb5197010733614f80732f4ce0f9fba542e0b91"
+  integrity sha512-4x7Ai7KG7CrQ8xJ/VoiVeEG2BcIgQtuDto002yZxQhdDXbjL37goKePHHyt4vOwF7tvUysna1TL0GvWfxqhUWg==
 
-"@mantine/notifications@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.0.1.tgz#03806227186797e3403063e68b6504d9b1696fcb"
-  integrity sha512-hibFj9kO8nuPafSbqqi02gcjXtZjq4nPHXk88yRIciKaETwDeaJ1wlMOdEiTbaEc7qA5Lh5tu/nuB62E4ts6/A==
+"@mantine/notifications@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.0.2.tgz#7ed500758e8f1c0d2a9ac31f0c2fa11536b6ab8a"
+  integrity sha512-jNY7YJ93Xzj9aZPxeF7EtUovILBu3NW74XiMu3+oIKKj+FnbkkDJGhmujC3KJb4/HB6S1Vl3c8bib5zlgBhXcw==
   dependencies:
     clsx "^1.1.1"
     react-transition-group "^4.4.2"
 
-"@mantine/prism@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.0.1.tgz#ae5c7434711ed3765a2ead78dc174400b70d3bc3"
-  integrity sha512-078w5ygrTZEYMaxCqM+12rSYoczexhSOnvIGfR5fS2gS3Oag91I9xuUHBNZpo2FeWrut5dfY1T27wqVWiyxlyg==
+"@mantine/prism@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.0.2.tgz#73f1082f9886c0dba7189900c025069e67d0967c"
+  integrity sha512-27/ERAQi0/XsEG8mC1PSYsS067gRGsXDSQZL4MaknwgWv8nPIlYaG/fPILchf1rT7If7nmyU9vq9n5nBOl/gRQ==
   dependencies:
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"

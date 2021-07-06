@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "2.0.1",
-    "@mantine/dates": "2.0.1",
-    "@mantine/hooks": "2.0.1",
-    "@mantine/notifications": "2.0.1",
-    "@mantine/prism": "2.0.1",
+    "@mantine/core": "2.0.2",
+    "@mantine/dates": "2.0.2",
+    "@mantine/hooks": "2.0.2",
+    "@mantine/notifications": "2.0.2",
+    "@mantine/prism": "2.0.2",
     "dayjs": "^1.10.5",
     "next": "11.0.1",
     "prism-react-renderer": "^1.2.1",
