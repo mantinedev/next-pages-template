@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 import {
   Button,
   Group,
@@ -9,10 +9,10 @@ import {
   InputWrapper,
   NumberInput,
   SegmentedControl,
-} from "@mantine/core";
-import { useNotifications } from "@mantine/notifications";
-import { Prism } from "@mantine/prism";
-import { DatePicker } from "@mantine/dates";
+} from '@mantine/core';
+import { useNotifications } from '@mantine/notifications';
+import { Prism } from '@mantine/prism';
+import { DatePicker } from '@mantine/dates';
 
 const code = `
 import React from 'react';
@@ -64,12 +64,10 @@ export default function Home() {
       </Head>
 
       <Container size={400} style={{ paddingTop: 80, paddingBottom: 120 }}>
-        <Title style={{ textAlign: "center", marginBottom: 20 }}>
-          Mantine Next starter
-        </Title>
+        <Title style={{ textAlign: 'center', marginBottom: 20 }}>Mantine Next starter</Title>
         <Text align="center" style={{ marginBottom: 40 }}>
-          This starter includes all @mantine packages, feel free to remove
-          everything that is not required for your application
+          This starter includes all @mantine packages, feel free to remove everything that is not
+          required for your application
         </Text>
         <Group position="center">
           <Button component="a" href="https://mantine.dev" size="lg">
@@ -85,10 +83,7 @@ export default function Home() {
           </Button>
         </Group>
 
-        <Title
-          order={2}
-          style={{ marginBottom: 30, marginTop: 50, textAlign: "center" }}
-        >
+        <Title order={2} style={{ marginBottom: 30, marginTop: 50, textAlign: 'center' }}>
           Explore features
         </Title>
 
@@ -100,7 +95,7 @@ export default function Home() {
           fullWidth
           onClick={() =>
             notifications.showNotification({
-              title: "Congratulations!",
+              title: 'Congratulations!',
               message: "You've just clicked a button",
             })
           }
@@ -138,9 +133,9 @@ export default function Home() {
           name="segmented-control"
           style={{ marginTop: 15 }}
           data={[
-            { label: "Segmented", value: "segmented" },
-            { label: "Radio", value: "radio" },
-            { label: "Control", value: "control" },
+            { label: 'Segmented', value: 'segmented' },
+            { label: 'Radio', value: 'radio' },
+            { label: 'Control', value: 'control' },
           ]}
         />
 
@@ -156,8 +151,8 @@ export default function Home() {
           fullWidth
           styles={{
             root: {
-              backgroundColor: "#00acee",
-              textShadow: "unset",
+              backgroundColor: '#00acee',
+              textShadow: 'unset',
               border: 0,
               height: 48,
               paddingLeft: 20,
@@ -165,7 +160,7 @@ export default function Home() {
             },
 
             label: {
-              textShadow: "1px 1px 0 #0490c7",
+              textShadow: '1px 1px 0 #0490c7',
             },
           }}
         >
