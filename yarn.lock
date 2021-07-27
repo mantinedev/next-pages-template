@@ -589,45 +589,44 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mantine/core@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.0.4.tgz#10b96f91481a7f83d94c5f7c6f8fa81dc06f4ed7"
-  integrity sha512-ULxObHpFZzpOKT4NdNZ2aiOX7ZSMVNL9VfMUrVD1qRCaMW+9dw1T90QPdCGbhGGPmESYbKpN1WcTWOE0+vMY0A==
+"@mantine/core@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.1.3.tgz#bfc33f9eb986800e0dc9a504ab89b41dc47008b4"
+  integrity sha512-Kz+sA1RlOLM8wO7pGiwlcgYpjHj07pVg9xlmH2/UqxJlk2eqYYyCIeGuHMO6SuVTJjJ2FxT1KZ91Lqn9Buud8w==
   dependencies:
     clsx "^1.1.1"
-    normalize-jss "^4.0.0"
     react-textarea-autosize "^8.3.2"
     react-transition-group "^4.4.2"
 
-"@mantine/dates@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.0.4.tgz#75d9c21777b79ea4ee45a60be490dd235119d137"
-  integrity sha512-K/j/wUl1fDQ5zxpbKT5hcnjD7HEHROM1Agv+OGXhPa457g+/xhnPnJmEq6qZEX9xCrOAH3DO8qCwNdVD0909tg==
+"@mantine/dates@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.1.3.tgz#1b0ab7876994eef5aade96bb3b583c4b174d4653"
+  integrity sha512-SmJ5pHDgV7LPe5l2vEvekxan1nrtElvdGBI4vkUfQHDJy+bhsCD5gAG+9oluN361+6NnFq0bO/ydgsMcej8LtA==
   dependencies:
     clsx "^1.1.1"
 
-"@mantine/eslint-config@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.0.4.tgz#e024826d69f9392c490da6e07ccbdf11a2593f93"
-  integrity sha512-/XExtX1yiSluNXqZcBVSlHyezXt/QjfHoTIHdgQ4gXlN5N0o5p7ShU8Sj/9RYr26SOXHoyepd8b6jaz5k+Am+A==
+"@mantine/eslint-config@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.1.3.tgz#7c15acae419d642ceaafd2465a7f4d47a8a70345"
+  integrity sha512-HYOs9oo0ZXJ5NXl/MOnMAuDCdYfg5muy5LE7KInZqPxqcZmyzdOFMcsCmqWh6osjTEKq04I6xQsXa4Dcp2Os8g==
 
-"@mantine/hooks@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.0.4.tgz#5552bf041e8500a124a593aaa86d250d9bb2bd3b"
-  integrity sha512-9sYWn8zyvo/xzGWpUnnmFdCVJbJROXljj1MY9nN29c5cciT22wsdqaMJVQKI5rdnRCM5ij6NNAjfsijvyWGUjA==
+"@mantine/hooks@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.1.3.tgz#2b4670b87ef5575e092646ad4da52b96ea9a1b4f"
+  integrity sha512-cdmpgl1yK2qGllHKYrMP4Eqir11eh7UL2ZiJhz27juRRleLwxIfWhlK4q2HcFTCscim6mb2HPROJAwNqOv5JXQ==
 
-"@mantine/notifications@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.0.2.tgz#7ed500758e8f1c0d2a9ac31f0c2fa11536b6ab8a"
-  integrity sha512-jNY7YJ93Xzj9aZPxeF7EtUovILBu3NW74XiMu3+oIKKj+FnbkkDJGhmujC3KJb4/HB6S1Vl3c8bib5zlgBhXcw==
+"@mantine/notifications@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.1.3.tgz#3468ad2367c5f1f116a1a69b7ab24b006e4f6dca"
+  integrity sha512-oMsirOx0fJB+ImZ26HkCujBo3H0dNOIARLzBewmhVFueVhI4ipXCYXRmCCIgPD9M42hhm+aYHIl4FJYW+CWLJw==
   dependencies:
     clsx "^1.1.1"
     react-transition-group "^4.4.2"
 
-"@mantine/prism@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.0.2.tgz#73f1082f9886c0dba7189900c025069e67d0967c"
-  integrity sha512-27/ERAQi0/XsEG8mC1PSYsS067gRGsXDSQZL4MaknwgWv8nPIlYaG/fPILchf1rT7If7nmyU9vq9n5nBOl/gRQ==
+"@mantine/prism@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.1.3.tgz#b5dcc1119febcef65edb989f133fbadc2d5d9ece"
+  integrity sha512-tqu8ZuFr/srUB8E34WK4o9esdUcE4ionGvUb959OwwFj947gqSsJlkY7QivUyCe1aPYXTF9xuU2oHgQ9/vzFuQ==
   dependencies:
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
@@ -4416,11 +4415,6 @@ node-releases@^1.1.71:
   version "1.1.73"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
   integrity sha512-uW7fodD6pyW2FZNZnp/Z3hvWKeEW1Y8R1+1CnErE8cXFXzl5blBOoVB41CvMer6P6Q0S5FXDwcHgFd1Wj0U9zg==
-
-normalize-jss@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/normalize-jss/-/normalize-jss-4.0.0.tgz#355e514127e7ba8f4b38a7e705cfeb86507ea0dd"
-  integrity sha512-zsn6yP0fOoDpzktjHCWKGVDMssYso0h6wxjW3+ABUp5CeEPpYc9YUy6cy7/SLO2yrPvtEzx0vu79Y9iEF2qSnA==
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
