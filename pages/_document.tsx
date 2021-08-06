@@ -19,7 +19,6 @@ if (typeof window === 'undefined') {
 export default class _Document extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const registry = new SheetsRegistry();
-    const generateId = createGenerateId({ minify: true });
     const originalRenderPage = ctx.renderPage;
 
     ctx.renderPage = () =>
@@ -27,7 +26,7 @@ export default class _Document extends Document {
         // eslint-disable-next-line react/display-name
         enhanceApp: (App) => (props) =>
           (
-            <JssProvider registry={registry} generateId={generateId}>
+            <JssProvider registry={registry} generateId={createGenerateId()}>
               <App {...props} />
             </JssProvider>
           ),
