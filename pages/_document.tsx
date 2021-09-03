@@ -1,20 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
-import { SheetsRegistry, JssProvider, createGenerateId } from 'react-jss';
-
-// This is a very dumb solution to prevent console.warn position with incorrect messages from react-jss
-// Currently we are working with jss team to fix this warning, meanwhile place consider leaving this code
-// This warning has no effect on react-jss styles and would not impact your components
-// You can learn more about the issue here – https://github.com/cssinjs/jss/issues/1492
-/* eslint-disable no-console */
-if (typeof window === 'undefined') {
-  const originalWarn = console.warn;
-  console.warn = (...args: any) => {
-    if (args[0] !== 'Warning: [JSS] Rule is not linked. Missing sheet option "link: true".') {
-      originalWarn(...args);
-    }
-  };
-}
-/* eslint-enable no-console */
+import { SsrProvider, SheetsRegistry, MantineServerStyles } from '@mantine/core';
 
 export default class _Document extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -26,9 +11,9 @@ export default class _Document extends Document {
         // eslint-disable-next-line react/display-name
         enhanceApp: (App) => (props) =>
           (
-            <JssProvider registry={registry} generateId={createGenerateId()}>
+            <SsrProvider registry={registry}>
               <App {...props} />
-            </JssProvider>
+            </SsrProvider>
           ),
       });
 
@@ -39,7 +24,7 @@ export default class _Document extends Document {
       styles: (
         <>
           {initialProps.styles}
-          <style id="mantine-ssr-styles">{registry.toString()}</style>
+          <MantineServerStyles registry={registry} />
         </>
       ),
     };
