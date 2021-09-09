@@ -589,50 +589,54 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mantine/core@2.5.0-alpha.0":
-  version "2.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.5.0-alpha.0.tgz#9b766df51e257765f62b863783173641192ec388"
-  integrity sha512-CI8N0OzozKoh6ZOOXEMSnzxEfQa15HDEuSCQOjnCX7XlBPoP4YlWxpPXLGAgDwy4831cVKMK3hQNLQY5eJnnMw==
+"@mantine/core@2.5.0-alpha.2":
+  version "2.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.5.0-alpha.2.tgz#fe4eca216673d93c1d0a019065ce4546b77ad5d2"
+  integrity sha512-vv4Ytq7fb0QBkgl/EE3KT948YFUUMRhr8rXgQKd9dKY6y/8pWLTXnMNXv7R49NYo2ua5w99Oj80rNXoanHbdeQ==
   dependencies:
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
+    react-jss "^10.7.1"
     react-popper "^2.2.5"
     react-textarea-autosize "^8.3.2"
 
-"@mantine/dates@2.5.0-alpha.0":
-  version "2.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.5.0-alpha.0.tgz#e73d1f3d06fa2c77a757ba9fc66e98828327093b"
-  integrity sha512-VpeQAgQ5YrKpJqgQGVzCcX3Hj38wAIF3M9/1wV2ES5JcpoLKgxh8Asv9Z2CVC4FVodjh8QjoreIVDAhd4RyxDA==
+"@mantine/dates@2.5.0-alpha.2":
+  version "2.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.5.0-alpha.2.tgz#a26ea56f4e900652f663981582a52460d100087c"
+  integrity sha512-jTOPjM5YJHXoeZXnRZKrjzSooQEPw/2BjKxrWoODOpSucdo9Xu9dkzsnsmiO/B7NtrFQ9F6mvBtzB1wPBnZXfA==
   dependencies:
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
+    react-jss "^10.7.1"
     react-popper "^2.2.5"
 
-"@mantine/eslint-config@2.5.0-alpha.0":
-  version "2.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.5.0-alpha.0.tgz#41179cdb1833c7bd621e0bf2d05982fedf4e20ca"
-  integrity sha512-cKlABt95NgLKFJo26hj8Ujof4F92J3a3xQW6L25to00LOq6X6yOkbIawoZilvra8nb3iwK5SZp05iiDALWNcpQ==
+"@mantine/eslint-config@2.5.0-alpha.2":
+  version "2.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.5.0-alpha.2.tgz#891cc1a02970cc8d96826709361ecc569b5c96e7"
+  integrity sha512-CsDZICUwxSMR3Qi3pPcHsZxxBDl0IHbSc6HGkbd/8ssDxCkg6C9M8jFrzte+Vmj1Wvps8wQVS6vHd83xGyDCzw==
 
-"@mantine/hooks@2.5.0-alpha.0":
-  version "2.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.5.0-alpha.0.tgz#770aad3ff3077e54bc0cacbfefeab55e7c7ae20b"
-  integrity sha512-dDpN/Zr7fA2z2Z1/HaomU59+oB7xGQ7pundzFIqgoc80mtzEBt5Wif3RFE1RGpV9Z/dUcn0tQJ42ZaSWs0prlw==
+"@mantine/hooks@2.5.0-alpha.2":
+  version "2.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.5.0-alpha.2.tgz#4c87b8179a1d8e7e15607be4563ef7a03e2562ac"
+  integrity sha512-f4bd8THbLzD5xzCY1PJfQ5HPIeWg2PnvzEwQOubD3yoNilnR9+Ul6JnGnxpOxC7WqLwQ215iLXTZ7U0oVlmcRw==
 
-"@mantine/notifications@2.5.0-alpha.0":
-  version "2.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.5.0-alpha.0.tgz#9d51b347492be595fc6825205b884e7ffcaeeb41"
-  integrity sha512-wR3tDV14d9Fa3K5z5L0VpooCtUzIjmMZCb6GXbDtqCMi4zC8V/QDQvHIw7406TwxuvE8kWrGT0tUFjElgsDYiQ==
+"@mantine/notifications@2.5.0-alpha.2":
+  version "2.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.5.0-alpha.2.tgz#487915fba8d58f5f4ec063f578bd40ec01c95aea"
+  integrity sha512-WSwYi4vNTv98tdGS39BUhhmhNRS1QqF+HlGyw3OvdG3p/Cd3qjjKopIpkEYfTNV6MNgRVlAkmeNxm4wktYrSCw==
   dependencies:
     clsx "^1.1.1"
+    react-jss "^10.7.1"
     react-transition-group "^4.4.2"
 
-"@mantine/prism@2.5.0-alpha.0":
-  version "2.5.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.5.0-alpha.0.tgz#de70fddfe0bc7212d16b42473856c6bd2e3ec626"
-  integrity sha512-YwAwUvN2PL+Ny+z0yXSB7H7Ic+VgKVuLG84ZJR901O7C/GXCqtzR3xMfANp9ZDc7roSanwsFmCZ4xDauts4X3Q==
+"@mantine/prism@2.5.0-alpha.2":
+  version "2.5.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.5.0-alpha.2.tgz#be4cce9a931a27c1910d36a10d7a6bd6c883efe8"
+  integrity sha512-b+XSUdoDXofYFlEWo7js/pqrFokMfSqnkxAf7EWdeIyxwOdnnUgk/Ui78Eup/BW2olgeY75BaxQcx/mR9qFbFQ==
   dependencies:
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
+    react-jss "^10.7.1"
 
 "@next/env@11.0.1":
   version "11.0.1"

@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
-import { SsrProvider, SheetsRegistry, MantineServerStyles } from '@mantine/core';
+import { SsrProvider, SheetsRegistry, ServerStyles } from '@mantine/core';
 
 export default class _Document extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -24,7 +24,7 @@ export default class _Document extends Document {
       styles: (
         <>
           {initialProps.styles}
-          <MantineServerStyles registry={registry} />
+          <ServerStyles registry={registry} />
         </>
       ),
     };
