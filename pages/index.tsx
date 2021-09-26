@@ -114,19 +114,8 @@ export default function Home() {
           <Slider defaultValue={40} />
         </InputWrapper>
 
-        <DatePicker
-          label="Date picker"
-          placeholder="Date Picker"
-          id="date-picker"
-          style={{ marginTop: 15 }}
-        />
-
-        <NumberInput
-          defaultValue={18}
-          id="number-input"
-          label="Number input"
-          style={{ marginTop: 15 }}
-        />
+        <DatePicker label="Date picker" placeholder="Date Picker" style={{ marginTop: 15 }} />
+        <NumberInput defaultValue={18} label="Number input" style={{ marginTop: 15 }} />
 
         <SegmentedControl
           fullWidth

@@ -652,77 +652,77 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mantine/core@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.6.0-alpha.0.tgz#94d189d3f8c9daa8c0cf126167d13d745cfb1726"
-  integrity sha512-vffh5aswwk6HC07KVaf5rYVt6MZ/OUcUFh/yrA3+F3TPRWkFYYhRfXAX2S1FcssOClKNfEtDG29twbmsyc30HA==
+"@mantine/core@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.6.0-alpha.2.tgz#2c5d52c693f96716e9f4b5a046c464123ba9de1a"
+  integrity sha512-I0K5bdX/c+FijWrXjWliIq57Bta61NAX4hnctKQ1Xu4Kr4uLIookd5D0bggjm/4siUFWtZLyOpR8ehOJaA0CMw==
   dependencies:
-    "@mantine/styles" "2.6.0-alpha.0"
+    "@mantine/styles" "2.6.0-alpha.2"
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
     react-popper "^2.2.5"
     react-textarea-autosize "^8.3.2"
 
-"@mantine/dates@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.6.0-alpha.0.tgz#2af24b8c746ae2f3c9525adc564f94bf29367c16"
-  integrity sha512-PlfU5KhfQinPcbxTJuVY/TtZ7SHx/+QrkhCqjV5UmHc/etcMrDlhU7XPtEBYCnHHR4orK325kmiYqgLpjJaJWA==
+"@mantine/dates@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.6.0-alpha.2.tgz#ff82d70a6fb7482550cd25e0e9216351282db82d"
+  integrity sha512-dQ6GRBCmqN0Y7fjCexgHyejIQ82A+bg+PFOtYDqBiQRaUSQEfWA2RJql7fEyBQTMNvunapypW2ddnKaKt5o7Jw==
   dependencies:
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
     react-popper "^2.2.5"
 
-"@mantine/eslint-config@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.6.0-alpha.0.tgz#9868a569c4865406c0664b58b64a372761308004"
-  integrity sha512-UqNEjDLj2iWGYpaWHhVzqkhWknaqN5iGFlwWgcy8qR9ce3WM2hADRA09Q0N8pffK7u/K05BQKQ523Gw2obclWQ==
+"@mantine/eslint-config@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.6.0-alpha.2.tgz#ae20b51e43089baa45bfebf1b322bd1f52cf6406"
+  integrity sha512-peBodkxvSD6lhAbheW+LIkuXcHkFsKzyqoXEgUw4+PQPZba2GOsNv5SCC3gusk7BFCC4UT8U+/NNMIxDZOAZWA==
 
-"@mantine/hooks@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.6.0-alpha.0.tgz#811ed63804b43e7829235ab24cd39d0001f21fca"
-  integrity sha512-RoFuDLUTOSc4Kl2TwMwmgjod1AUIqB5dFHNloaxg0zPWSDpC8c/i+UriGiJQL9TdxMVisR1M1SYiGicx09RrPQ==
+"@mantine/hooks@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.6.0-alpha.2.tgz#26371120fca2fe8542000171b726a0d5be005677"
+  integrity sha512-bK/VhNtx+bPfEQuyUv8ulZ5McY7SVIdBbIPuovEdDkKqQ8Kp9vnjF8uLw2ZueLUo8MyPJXPXfmeSNLJbkXVHJg==
 
-"@mantine/next@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-2.6.0-alpha.0.tgz#47efbee45a20ebb08045484cdc1ffc078087622d"
-  integrity sha512-zHDXrjw65ae7NCRFjkZlb8YEIre8KJScE91FHPoSVbofvh599CINkB+9br6Q+JruQ4O1TEiSuzdW63ZPGaKTmw==
+"@mantine/next@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-2.6.0-alpha.2.tgz#ef0fa35b8fa52db7684209c16b24337fd186ecf5"
+  integrity sha512-MjcqVKIMqIPSxMM1/jGGZSj8or8GlR/Vu3nJyMfipQHxTuxPrJ42VoA9aD5mliLoOLwh74x1yUGxQx/u5pdwJw==
   dependencies:
-    "@mantine/ssr" "2.6.0-alpha.0"
+    "@mantine/ssr" "2.6.0-alpha.2"
 
-"@mantine/notifications@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.6.0-alpha.0.tgz#9c23ab61f2f26e80324eb155d3a930392d9d17f1"
-  integrity sha512-AlY0oE04XhJJNo1yiIVPDzzhoYA2Dh4cDBqX4QPvMfwfqmZ3lZ//+gKJcWecvP/niwu1oZhkYy7xCgqoVNoRbQ==
+"@mantine/notifications@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.6.0-alpha.2.tgz#9b6c1e8973f47f83e379945972d9a4ac0cf50308"
+  integrity sha512-qiKTn9GYcgwsUActZRarBdF+gvkXgB0ed3OAaE8eCmNzVwDTm5zrKkM0C0Ex7PHMmE1gYA0MJDsX5MO3VRNXxw==
   dependencies:
     clsx "^1.1.1"
     react-transition-group "^4.4.2"
 
-"@mantine/prism@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.6.0-alpha.0.tgz#1c8cd102622f9a445437009d073187a49ed3ca6a"
-  integrity sha512-XPts6czO2w9rBFnNHDQGcl/N01UYyljjgV69QmKn0WbhzjUTnH1ERS/9uXpYVJhgGRy1UJGZguUDJZPmbbBW7A==
+"@mantine/prism@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.6.0-alpha.2.tgz#438faa6ea8f627791d16b9a8171874b24e03bf94"
+  integrity sha512-kQ2wKR9t1j8zYQ667HwSOb+KZs036POeU7W08qvSivquL2Q813mPgcH6cMXQJshoCSIi1ZKX1OJEIlY46ukYZA==
   dependencies:
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
 
-"@mantine/ssr@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-2.6.0-alpha.0.tgz#786593f70520b8047276536dd6f280d9e021a2f6"
-  integrity sha512-8HD2yNPqF0By0MLjBZTfvSx26WaNQIQYHeHiXq5vH5O7fioaMiKT5+clrnpdg51FKvjuwVG7dVyCX9zOy73OAw==
+"@mantine/ssr@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-2.6.0-alpha.2.tgz#166ec8ce19e92a133a3491fab6065fe1ea3af510"
+  integrity sha512-kjMKLhG7gGqA/sE5EM7rMCRJCwKOfN9d2ORRVlHgD92ShBp0+qQIj1gt+pFBS4iWp7u3RWgPMA0DeyCAzHEOcg==
   dependencies:
     "@emotion/cache" "^11.4.0"
     "@emotion/react" "^11.4.1"
     "@emotion/serialize" "^1.0.2"
     "@emotion/server" "^11.4.0"
     "@emotion/utils" "^1.0.0"
-    "@mantine/styles" "2.6.0-alpha.0"
+    "@mantine/styles" "2.6.0-alpha.2"
     csstype "^3.0.9"
     html-react-parser "^1.3.0"
 
-"@mantine/styles@2.6.0-alpha.0":
-  version "2.6.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-2.6.0-alpha.0.tgz#3ed508cea07aa8e35109b996091242719b18fbe1"
-  integrity sha512-B3NtqrfHPpxGN1mbzfL/c3yTxsQwnIbDlir0MAzBgEqn2P8c8xCucfSpRskVA7MPuraK83O+FFezxwHKfQJ+ag==
+"@mantine/styles@2.6.0-alpha.2":
+  version "2.6.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-2.6.0-alpha.2.tgz#b159124ae42fddf1712c267d6ab1c95f8700d4b8"
+  integrity sha512-k6RTBP9aboE7JJsKthKyBw1c3Q4RCek44kC3pojaWJiZoGpBb3PqH9KK+1MXYS8hzEGW0f60LDx8iSahYCtSLA==
   dependencies:
     "@emotion/cache" "^11.4.0"
     "@emotion/react" "^11.4.1"
