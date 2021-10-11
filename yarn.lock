@@ -652,77 +652,77 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mantine/core@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.6.0-alpha.6.tgz#d2cd99d266a769f736da533324413a2cfd8f4906"
-  integrity sha512-YIgoWNv+EoWymzq04TJucfTDh/ykvmtlA+otROzLvRYeLOpC6A4zAL7l4KhHTnAA7zYXe8TrIvd1+pVyItyASQ==
+"@mantine/core@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-3.0.0.tgz#1966ce70642a9c3003847741846d79f2055efcaf"
+  integrity sha512-zQVvhLSHqAqYZrQXRwxTjXi8IxXOfb8Do2ZbPJdTEsQtHMoy+ulf813jIGWQLjqjwOR7K7qwYmv8O+Lx1k/Yqg==
   dependencies:
-    "@mantine/styles" "2.6.0-alpha.6"
+    "@mantine/styles" "3.0.0"
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
     react-popper "^2.2.5"
     react-textarea-autosize "^8.3.2"
 
-"@mantine/dates@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-2.6.0-alpha.6.tgz#72921e1ab949a6bf0630767c2b111386bd0de225"
-  integrity sha512-wfMhV5fJgaCH6gudzhxN4QvYsgQz5YhgTX2CZyyVsqUbB+8IjgP1BBtG6OUnKwmWXo1h4VqDRD5WIE1KsCz8AA==
+"@mantine/dates@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-3.0.0.tgz#d01f73e5d5f2fb8fead2b48657f46836111750f9"
+  integrity sha512-M4+f+6epC9DaFxbLB7Lc05Z5DUoWeR7tSks0Y5latAi8FOIE1AXHyhmxtVdEPI2Zv6bbjAz6gEBXvie8gqXFlw==
   dependencies:
     "@popperjs/core" "^2.9.3"
     clsx "^1.1.1"
     react-popper "^2.2.5"
 
-"@mantine/eslint-config@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-2.6.0-alpha.6.tgz#c5b5cb47025c80acd98d5e8c64159d2a4a34901b"
-  integrity sha512-mF6xErtg3vb6sT4xpeDEFSReagEh4aqJkMTXeQiL1OOmE0YisqDKmG9dLRBjRlxrOBHFDs10qUG2LOBhLHsaqg==
+"@mantine/eslint-config@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/eslint-config/-/eslint-config-3.0.0.tgz#e09b4836a053c01da62df93f93b65338e79fbb41"
+  integrity sha512-fmwY9YHpX339ApJpfkDyl6Fgtpxqitq5VcoULdf5uU/Ps3G4gL6oaR4zVPNuipXBmcq/2W+SNGB21vh4smlM1w==
 
-"@mantine/hooks@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.6.0-alpha.6.tgz#115845c40d18d02a68c79a48256905937f367db5"
-  integrity sha512-jPLFun/GEIL409Z04TZT47LwQvk7GWXDBNJkDiYu0STOkYvhkFgqXBmvncpjzTRfLsSWggf1zgcCXN+Rcwakiw==
+"@mantine/hooks@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-3.0.0.tgz#4764c5ab257bc8a544432e431bd31384fae636c8"
+  integrity sha512-zcnUYdGBcN13IeR0w5qNENE0Irkprs3Bc91dEDA6BrtmBtOvz4gnaunXjT1BKG7321R9cM/hINz9YiTLqrL1Ng==
 
-"@mantine/next@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-2.6.0-alpha.6.tgz#43d77ae998049298ff45047de8c4ad3beb5a23a4"
-  integrity sha512-Ctq16Rz8E8xJYlv5D7PrAh/iaD6L2N9YoqcO/CYcyFPQGZ+V8/HQI02u6HKC9ahT4mO8qLnqC6YlZjHNgvaD4g==
+"@mantine/next@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-3.0.0.tgz#a46d9d0b89bb74e3fb7967f15090e6f9a205ee9e"
+  integrity sha512-jffmKjLT7Jd59vylvOEuJSM8iRMFwZYsaNyzIVbIhT9zK0rXQr8BBb0y+v9XjTdZqS1A3lopOSuSMUKQZkgFhA==
   dependencies:
-    "@mantine/ssr" "2.6.0-alpha.6"
+    "@mantine/ssr" "3.0.0"
 
-"@mantine/notifications@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.6.0-alpha.6.tgz#3510c27350360c18da89a0b6d37f4fde7fead431"
-  integrity sha512-hKToJ46DE4HqtW56qbNFgC5BzgXOOtvhZo/cO+cdCL0ySD3fOU7sppxNlYiBOxBv3rDlj5lFdCEEUNMXj6irKw==
+"@mantine/notifications@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-3.0.0.tgz#16890245514f67f26aefa230b663f8c686158a36"
+  integrity sha512-Bwz/4rGtOMwi/7MgDBVeyyBObQRp3am4s0VMMqE2rGcqqqyqIv7U502GfEgfggWeOUITWgGxV9EjABRkg7UUhQ==
   dependencies:
     clsx "^1.1.1"
     react-transition-group "^4.4.2"
 
-"@mantine/prism@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-2.6.0-alpha.6.tgz#10fd85d90bab6666df042cbd3176e3186751a0d8"
-  integrity sha512-R1n0BxOiyPxPRJypCRykUHDVjrxN2mi6P+y5ccS2lWxvXoSQ/6kQLJkzcRz2GOTTbR59cjXUTic/V32q3aDanA==
+"@mantine/prism@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-3.0.0.tgz#1c3c1aed544012aa792f7a0ae453012e9bbbdf88"
+  integrity sha512-5v5MQlD3O29h5IvUCWWB6/pK61npG+VG0EPBiKWPTv0WvZYxcdywLkulq5y8szw5lQyldRgA7TCP2sjMdfjnFw==
   dependencies:
     clsx "^1.1.1"
     prism-react-renderer "^1.2.1"
 
-"@mantine/ssr@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-2.6.0-alpha.6.tgz#9446dddbd59beb8cb63155ed506f8602501d25a2"
-  integrity sha512-oAnk0rcRKnQeEa/vblZkWOa63+YVfVcHOdFkN18GmG7tTZbp57vJ/A1jnjRnJZoI11rKhksu4Yq6550PgPQHeQ==
+"@mantine/ssr@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-3.0.0.tgz#ec5a7f400e35c202a4a2455946de35e15449ed8b"
+  integrity sha512-DiwM45K7AD1HdjSTXhbY0/lOHlY6R47VEJeEMt/DyWTuIYFLm93s9lEI3Zj0/4rIZBjQL6H9eMdOC+fHDbPWow==
   dependencies:
     "@emotion/cache" "^11.4.0"
     "@emotion/react" "^11.4.1"
     "@emotion/serialize" "^1.0.2"
     "@emotion/server" "^11.4.0"
     "@emotion/utils" "^1.0.0"
-    "@mantine/styles" "2.6.0-alpha.6"
+    "@mantine/styles" "3.0.0"
     csstype "^3.0.9"
     html-react-parser "^1.3.0"
 
-"@mantine/styles@2.6.0-alpha.6":
-  version "2.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-2.6.0-alpha.6.tgz#0f9ef93217b14880b22c9f6a9a120f8f78fd8813"
-  integrity sha512-2ctCHHvIBgmJ8c19vc/QW85+TJGluP69oI59CyBxEqCuP7xQkHRtH/18hWQlY2tW0OT175KWs8KTysOnh2ib6A==
+"@mantine/styles@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-3.0.0.tgz#36ec42984b5a3d4d57f8133b1dbe6152562ee4d9"
+  integrity sha512-DRdCWxGm8o//ILmbpmYn6jviMZMDexLIU7seA2PM6e+ybmKw7sqHCppmVV3aY+H7u4aV8wBtrBVOg25rjwHoCQ==
   dependencies:
     "@emotion/cache" "^11.4.0"
     "@emotion/react" "^11.4.1"
