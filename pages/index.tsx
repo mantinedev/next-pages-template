@@ -31,7 +31,7 @@ const stylesApiCode = `
   href="https://twitter.com/mantinedev"
   fullWidth
   styles={{
-    root: {
+    filled: {
       backgroundColor: "#00acee",
       textShadow: "unset",
       border: 0,
@@ -139,7 +139,7 @@ export default function Home() {
           size="lg"
           fullWidth
           styles={{
-            root: {
+            filled: {
               backgroundColor: '#00acee',
               textShadow: 'unset',
               border: 0,
