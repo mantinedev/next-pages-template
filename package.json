@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@mantine/eslint-config": "3.5.0",
+    "@next/bundle-analyzer": "^12.0.7",
     "@types/react": "17.0.37",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
