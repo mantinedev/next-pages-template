@@ -19,10 +19,10 @@
     "@mantine/notifications": "3.6.1",
     "@mantine/prism": "3.6.1",
     "dayjs": "^1.10.7",
-    "next": "12.0.7",
+    "next": "^12.0.9",
     "prism-react-renderer": "^1.2.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^18.0.0-rc.0",
+    "react-dom": "^18.0.0-rc.0"
   },
   "devDependencies": {
     "@mantine/eslint-config": "3.6.1",
