@@ -12,12 +12,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "3.6.1",
-    "@mantine/dates": "3.6.1",
-    "@mantine/hooks": "3.6.1",
-    "@mantine/next": "3.6.1",
-    "@mantine/notifications": "3.6.1",
-    "@mantine/prism": "3.6.1",
+    "@mantine/core": "3.6.7",
+    "@mantine/dates": "3.6.7",
+    "@mantine/hooks": "3.6.7",
+    "@mantine/next": "3.6.7",
+    "@mantine/notifications": "3.6.7",
+    "@mantine/prism": "3.6.7",
     "dayjs": "^1.10.7",
     "next": "12.0.7",
     "prism-react-renderer": "^1.2.1",
@@ -25,7 +25,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@mantine/eslint-config": "3.6.1",
+    "@mantine/eslint-config": "3.6.7",
     "@next/bundle-analyzer": "^12.0.7",
     "@types/react": "17.0.37",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
