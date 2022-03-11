@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@mantine/eslint-config'],
+  extends: ['mantine'],
   parserOptions: {
     project: './tsconfig.json',
   },
