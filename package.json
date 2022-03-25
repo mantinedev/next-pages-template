@@ -12,12 +12,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "4.0.6",
-    "@mantine/dates": "4.0.6",
-    "@mantine/hooks": "4.0.6",
-    "@mantine/next": "4.0.6",
-    "@mantine/notifications": "4.0.6",
-    "@mantine/prism": "4.0.6",
+    "@mantine/core": "4.0.8",
+    "@mantine/dates": "4.0.8",
+    "@mantine/hooks": "4.0.8",
+    "@mantine/next": "4.0.8",
+    "@mantine/notifications": "4.0.8",
+    "@mantine/prism": "4.0.8",
     "cookies-next": "^2.0.4",
     "dayjs": "^1.10.8",
     "next": "12.1.0",
