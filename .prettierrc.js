@@ -1,1 +1,1 @@
-module.exports = require('@mantine/eslint-config/prettier.config');
+module.exports = require('eslint-config-mantine/.prettierrc.js');
