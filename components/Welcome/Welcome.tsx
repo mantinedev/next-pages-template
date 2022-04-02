@@ -1,5 +1,4 @@
 import { Title, Text, Anchor } from '@mantine/core';
-import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import useStyles from './Welcome.styles';
 
 export function Welcome() {
@@ -21,7 +20,6 @@ export function Welcome() {
         </Anchor>
         . To get started edit index.tsx file.
       </Text>
-      <ColorSchemeToggle />
     </>
   );
 }
