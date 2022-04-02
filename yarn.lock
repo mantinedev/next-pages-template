@@ -918,7 +918,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@testing-library/dom@^8.5.0":
+"@testing-library/dom@^8.12.0", "@testing-library/dom@^8.5.0":
   version "8.12.0"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.12.0.tgz#fef5e545533fb084175dda6509ee71d7d2f72e23"
   integrity sha512-rBrJk5WjI02X1edtiUcZhgyhgBhiut96r5Jp8J5qktKdcvLcZpKDW8i2hkGMMItxrghjXuQ5AM6aE0imnFawaw==
@@ -1216,7 +1216,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/utils@^5.10.0":
+"@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.13.0":
   version "5.17.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.17.0.tgz#549a9e1d491c6ccd3624bc3c1b098f5cfb45f306"
   integrity sha512-DVvndq1QoxQH+hFv+MUQHrrWZ7gQ5KcJzyjhzcqB1Y2Xes1UQQkTRPUfRpqhS8mhTWsSb2+iyvDW1Lef5DD7vA==
@@ -2153,6 +2153,13 @@ eslint-plugin-react@^7.29.4:
     resolve "^2.0.0-next.3"
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
+
+eslint-plugin-testing-library@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.2.0.tgz#4e097027345ecc4a2479be12b5a5b9098e7c9c7a"
+  integrity sha512-fYFH8lA1hbc1Epr9laNm/+YIR2d+R7WI8sFz9jIRAUfqCf21Nb5BzZwhNeZlu9wKXwDtuf+hUM5QJxG1PuDsTQ==
+  dependencies:
+    "@typescript-eslint/utils" "^5.13.0"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
