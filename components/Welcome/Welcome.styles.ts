@@ -6,5 +6,9 @@ export default createStyles((theme) => ({
     fontSize: 100,
     fontWeight: 900,
     letterSpacing: -2,
+
+    [theme.fn.smallerThan('md')]: {
+      fontSize: 50,
+    },
   },
 }));
