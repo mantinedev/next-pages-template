@@ -16,7 +16,7 @@
     "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
     "test": "npm run prettier:check && npm run lint && npm run typecheck && npm run jest",
     "storybook": "start-storybook -p 7001",
-    "build-storybook": "build-storybook"
+    "storybook:build": "build-storybook"
   },
   "dependencies": {
     "@mantine/core": "4.1.1",
@@ -61,6 +61,7 @@
     "eslint-plugin-testing-library": "^5.2.0",
     "jest": "^27.5.1",
     "prettier": "^2.6.2",
+    "storybook-addon-turbo-build": "^1.1.0",
     "ts-jest": "^27.1.4",
     "typescript": "4.6.3"
   }
