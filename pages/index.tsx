@@ -1,11 +1,11 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import type { NextPage } from 'next';
+import { useState } from 'react';
+import Hamburger from '../components/Hamburger';
 
-export default function HomePage() {
-  return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
-  );
-}
+const Home: NextPage = () => {
+  const [active, setActive] = useState(false);
+
+  return <Hamburger open={active} onClick={() => setActive(!active)} />;
+};
+
+export default Home;
