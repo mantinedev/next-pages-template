@@ -26,6 +26,7 @@
     "@mantine/notifications": "4.1.5",
     "@mantine/prism": "4.1.5",
     "@modulz/radix-icons": "^4.0.0",
+    "@next/bundle-analyzer": "^12.1.4",
     "cookies-next": "^2.0.4",
     "dayjs": "^1.11.0",
     "next": "12.1.4",
@@ -35,7 +36,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
-    "@next/bundle-analyzer": "^12.1.4",
     "@next/eslint-plugin-next": "^12.1.4",
     "@storybook/react": "^6.4.20",
     "@testing-library/dom": "^8.12.0",
