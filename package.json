@@ -19,12 +19,12 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "@mantine/core": "4.1.5",
-    "@mantine/dates": "4.1.5",
-    "@mantine/hooks": "4.1.5",
-    "@mantine/next": "4.1.5",
-    "@mantine/notifications": "4.1.5",
-    "@mantine/prism": "4.1.5",
+    "@mantine/core": "4.2.2",
+    "@mantine/dates": "4.2.2",
+    "@mantine/hooks": "4.2.2",
+    "@mantine/next": "4.2.2",
+    "@mantine/notifications": "4.2.2",
+    "@mantine/prism": "4.2.2",
     "@modulz/radix-icons": "^4.0.0",
     "@next/bundle-analyzer": "^12.1.4",
     "cookies-next": "^2.0.4",
