@@ -1797,11 +1797,6 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
-"@modulz/radix-icons@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@modulz/radix-icons/-/radix-icons-4.0.0.tgz#628a7826a4569dd2e3331e266d8d2e26c7d6753c"
-  integrity sha512-d79T4cYvMGMocVC/q1WiMO578FPFfUoxmXIkduc8cUQAPDr7thuEV5HrCHhqqqkoVaYD0QPct180ilcNUyGPrg==
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2670,6 +2665,11 @@
   integrity sha512-556Az0VX7WR6UdoTn4htt/l3zPQ7bsQWK+HqdG4swV7beUCxo/BqmvbOpUkTIm/9ih86LIf1qsUnywNL3obGHw==
   dependencies:
     tslib "^2.4.0"
+
+"@tabler/icons@^1.78.1":
+  version "1.78.1"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.78.1.tgz#7577c1b22c736cec43718e512c89b4452c926e99"
+  integrity sha512-QT/94Hufvzn4PxsEyN9NTh96XmNaGGgMh7sKcBZ2216pE9B+Ala98KpdNwTKKBlEvRvHw9y14zW4qFYzxGOhZw==
 
 "@testing-library/dom@^8.12.0", "@testing-library/dom@^8.5.0":
   version "8.12.0"
