@@ -1,4 +1,4 @@
-import { Title, Text, Anchor } from '@mantine/core';
+import { Title, Text, Anchor, Tooltip } from '@mantine/core';
 import useStyles from './Welcome.styles';
 
 export function Welcome() {
@@ -6,6 +6,9 @@ export function Welcome() {
 
   return (
     <>
+      <Tooltip label="Tooltip">
+        <button type="button">Hello</button>
+      </Tooltip>
       <Title className={classes.title} align="center" mt={100}>
         Welcome to{' '}
         <Text inherit variant="gradient" component="span">
