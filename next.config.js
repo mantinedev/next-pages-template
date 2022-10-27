@@ -4,6 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: false,
+  experimental: { appDir: true },
   eslint: {
     ignoreDuringBuilds: true,
   },
