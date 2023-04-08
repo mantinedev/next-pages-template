@@ -1,28 +1,31 @@
 import { Title, Text, Anchor, Box, Container } from '@mantine/core';
 import useStyles from './Welcome.styles';
 import TabsList from '../Tabs/Tabs';
-
+import Logo from '../Logo/Logo';
+import { useMediaQuery } from '@mantine/hooks';
 export function Welcome() {
   const { classes } = useStyles();
+  const mediumScreen = useMediaQuery('(min-width: 48em)');
 
   return (
-    <Container size={'md'} sx={{display:'flex', height:'100%', alignItems: 'center'}}>
-     <Box ><TabsList/></Box> 
-    
-      {/* <Title className={classes.title} align="center" mt={100}>
-        Welcome to{' '}
-        <Text inherit variant="gradient" component="span">
-          Mantine
-        </Text>
-      </Title>
-      <Text color="dimmed" align="center" size="lg" sx={{ maxWidth: 580 }} mx="auto" mt="xl">
-        This starter Next.js project includes a minimal setup for server side rendering, if you want
-        to learn more on Mantine + Next.js integration follow{' '}
-        <Anchor href="https://mantine.dev/guides/next/" size="lg">
-          this guide
-        </Anchor>
-        . To get started edit index.tsx file.
-      </Text> */}
-    </Container>
+    <>
+      {!mediumScreen && (
+        <Box className={classes.logoHeading}>
+          <Text mr={'1rem'} component="span" className={classes.title}>
+            Matthew
+          </Text>
+          <Logo />
+          <Text ml={'1rem'} component="span" className={classes.title}>
+            Magnotta
+          </Text>
+        </Box>
+      )}
+
+      <Container size={'xl'} /* sx={{ display: 'flex', height: '100%', marginTop: '0rem' }} */>
+        <Box>
+          <TabsList />
+        </Box>
+      </Container>
+    </>
   );
 }

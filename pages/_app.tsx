@@ -4,6 +4,7 @@ import { getCookie, setCookie } from 'cookies-next';
 import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
+import { sizes } from '@mantine/core/lib/ActionIcon/ActionIcon.styles';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
@@ -18,13 +19,31 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   return (
     <>
       <Head>
-        <title>Mantine next example</title>
+        <title>Matthew Magnotta</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
 
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-        <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
+        <MantineProvider
+          theme={{
+            colorScheme,
+            headings: {
+              // properties for all headings
+              fontWeight: 400,
+              // fontFamily: 'Roboto',
+
+              // properties for individual headings, all of them are optional
+              sizes: {
+                h1: { fontWeight: 700, fontSize: '1.4rem', /* lineHeight: 1.4, */  },
+                h2: { fontSize: '1rem', lineHeight: 1.4 },
+                h6: { fontWeight: 900 },
+              },
+            },
+          }}
+          withGlobalStyles
+          withNormalizeCSS
+        >
           <Component {...pageProps} />
           <Notifications />
         </MantineProvider>
