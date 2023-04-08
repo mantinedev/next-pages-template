@@ -4,7 +4,9 @@ import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeTo
 export default function HomePage() {
   return (
     <>
-     <style global jsx>{`
+      <ColorSchemeToggle />
+
+      {/* <style global jsx>{`
       html,
       body,
       body > div:first-child,
@@ -12,9 +14,8 @@ export default function HomePage() {
       div#__next > div {
         height: 100%;
       }
-    `}</style>
+    `}</style> */}
       <Welcome />
-      <ColorSchemeToggle />
     </>
   );
 }

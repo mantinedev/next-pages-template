@@ -1,19 +1,40 @@
 import { Tabs } from '@mantine/core';
-import { IconPhoto, IconMessageCircle, IconSettings, IconTilde, IconBriefcase, IconMathGreater, IconBulb } from '@tabler/icons-react';
+import { IconTilde, IconBriefcase, IconMathGreater, IconBulb } from '@tabler/icons-react';
+import Intro from '../Intro/Intro';
+import { useMediaQuery } from '@mantine/hooks';
+import Logo from '../Logo/Logo';
 
-const TabsList = () =>  {
+const TabsList = () => {
+  const mediumScreen = useMediaQuery('(min-width: 48em)');
   return (
-    <Tabs defaultValue="gallery" color='indigo' orientation='vertical' >
+    <Tabs
+      defaultValue="introduction"
+      color="indigo"
+      orientation={mediumScreen ? 'vertical' : 'horizontal'}
+    >
       <Tabs.List>
-        <Tabs.Tab value="introduction" icon={<IconTilde size="0.8rem" />}>Introduction</Tabs.Tab>
-        <Tabs.Tab value="workExperience" icon={<IconBriefcase size="0.8rem" />}>Work Experience</Tabs.Tab>
-        <Tabs.Tab value="technicalExperience" icon={<IconMathGreater size="0.8rem" />}>Techinal Skillset</Tabs.Tab>
-        <Tabs.Tab value="interests" icon={<IconBulb size="0.8rem" />}>Interests for 2023</Tabs.Tab>
-
+        <Tabs.Tab value="introduction" icon={mediumScreen ? <IconTilde size="0.8rem" /> : null}>
+          Home
+        </Tabs.Tab>
+        <Tabs.Tab
+          value="workExperience"
+          icon={mediumScreen ? <IconBriefcase size="0.8rem" /> : null}
+        >
+          {mediumScreen ? 'Work Experience' : 'Experience'}
+        </Tabs.Tab>
+        <Tabs.Tab
+          value="technicalExperience"
+          icon={mediumScreen ? <IconMathGreater size="0.8rem" /> : null}
+        >
+          {mediumScreen ? 'Techinal Skillset' : 'Skillset'}
+        </Tabs.Tab>
+        <Tabs.Tab value="interests" icon={mediumScreen ? <IconBulb size="0.8rem" /> : null}>
+          {mediumScreen ? 'Interests for 2023' : 'Interests'}
+        </Tabs.Tab>
       </Tabs.List>
 
       <Tabs.Panel value="introduction" pt="xs">
-        Gallery tab content
+        <Intro />
       </Tabs.Panel>
 
       <Tabs.Panel value="workExperience" pt="xs">
@@ -23,12 +44,12 @@ const TabsList = () =>  {
       <Tabs.Panel value="technicalExperience" pt="xs">
         Settings tab content
       </Tabs.Panel>
-      
+
       <Tabs.Panel value="interests" pt="xs">
         Settings tab content
       </Tabs.Panel>
     </Tabs>
   );
-}
+};
 
-export default TabsList
+export default TabsList;
