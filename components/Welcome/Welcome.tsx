@@ -1,12 +1,15 @@
-import { Title, Text, Anchor } from '@mantine/core';
+import { Title, Text, Anchor, Box, Container } from '@mantine/core';
 import useStyles from './Welcome.styles';
+import TabsList from '../Tabs/Tabs';
 
 export function Welcome() {
   const { classes } = useStyles();
 
   return (
-    <>
-      <Title className={classes.title} align="center" mt={100}>
+    <Container size={'md'} sx={{display:'flex', height:'100%', alignItems: 'center'}}>
+     <Box ><TabsList/></Box> 
+    
+      {/* <Title className={classes.title} align="center" mt={100}>
         Welcome to{' '}
         <Text inherit variant="gradient" component="span">
           Mantine
@@ -19,7 +22,7 @@ export function Welcome() {
           this guide
         </Anchor>
         . To get started edit index.tsx file.
-      </Text>
-    </>
+      </Text> */}
+    </Container>
   );
 }
