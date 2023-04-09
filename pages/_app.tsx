@@ -4,7 +4,6 @@ import { getCookie, setCookie } from 'cookies-next';
 import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
-import { sizes } from '@mantine/core/lib/ActionIcon/ActionIcon.styles';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
@@ -30,13 +29,14 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
             colorScheme,
             headings: {
               // properties for all headings
-              fontWeight: 400,
-              // fontFamily: 'Roboto',
+              fontWeight: 900,
+              fontFamily:
+                'Greycliff CF, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji',
 
               // properties for individual headings, all of them are optional
               sizes: {
-                h1: { fontWeight: 700, fontSize: '1.4rem', /* lineHeight: 1.4, */  },
-                h2: { fontSize: '1rem', lineHeight: 1.4 },
+                h1: { fontSize: '1.4rem' /* lineHeight: 1.4, */ },
+                h2: { fontSize: '1rem', fontWeight: 700, lineHeight: 1.4 },
                 h6: { fontWeight: 900 },
               },
             },

@@ -1,8 +1,10 @@
 import { createStyles } from '@mantine/core';
 
 export default createStyles((theme) => ({
-  logoHeading:{
-    display: 'flex', alignItems: 'center', justifyContent:'center'
+  logoHeading: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
   title: {
@@ -15,6 +17,4 @@ export default createStyles((theme) => ({
       fontSize: 30,
     },
   },
-
-  
 }));

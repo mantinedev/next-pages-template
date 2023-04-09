@@ -1,8 +1,10 @@
 import { Tabs } from '@mantine/core';
-import { IconTilde, IconBriefcase, IconMathGreater, IconBulb } from '@tabler/icons-react';
-import Intro from '../Intro/Intro';
 import { useMediaQuery } from '@mantine/hooks';
-import Logo from '../Logo/Logo';
+
+import { IconTilde, IconBriefcase, IconMathGreater, IconBulb } from '@tabler/icons-react';
+
+import Intro from '../Intro/Intro';
+import SkillSet from '../Skillset/Skillset';
 
 const TabsList = () => {
   const mediumScreen = useMediaQuery('(min-width: 48em)');
@@ -42,7 +44,10 @@ const TabsList = () => {
       </Tabs.Panel>
 
       <Tabs.Panel value="technicalExperience" pt="xs">
-        Settings tab content
+        <SkillSet
+          title="Developing with Purpose: A Spotlight on My Core Development Skills"
+          description=""
+        />
       </Tabs.Panel>
 
       <Tabs.Panel value="interests" pt="xs">
