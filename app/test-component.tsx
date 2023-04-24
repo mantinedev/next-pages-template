@@ -17,7 +17,7 @@ const useStyles = createStyles((theme) => ({
     pointerEvents: 'none',
     fontSize: theme.fontSizes.xs,
     paddingLeft: theme.spacing.sm,
-    paddingTop: theme.spacing.sm / 2,
+    paddingTop: `${parseFloat(theme.spacing.sm) / 2}rem`,
     zIndex: 1,
   },
 }));
