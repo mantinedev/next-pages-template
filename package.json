@@ -32,8 +32,6 @@
     "@babel/core": "^7.22.1",
     "@next/eslint-plugin-next": "^13.4.4",
     "@storybook/addon-essentials": "^7.0.18",
-    "@storybook/addon-interactions": "^7.0.18",
-    "@storybook/addon-links": "^7.0.18",
     "@storybook/addon-styling": "^1.0.8",
     "@storybook/blocks": "^7.0.18",
     "@storybook/nextjs": "^7.0.18",
