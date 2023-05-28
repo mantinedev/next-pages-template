@@ -2075,10 +2075,10 @@
   resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
   integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
-"@mantine/core@7.0.0-alpha.9":
-  version "7.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.0.0-alpha.9.tgz#75533340a3edaf6d1a2a52219812e8879175c81b"
-  integrity sha512-dHY5cS5VnuOOmC2FwxS1Xcn/UKM2UsEr522Pb3OAj5QgBKxiFIlR3w3RQvQ12HAk88YRnwEP+mjRSQJ5rvyLqg==
+"@mantine/core@7.0.0-alpha.11":
+  version "7.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.0.0-alpha.11.tgz#36da66ec21f2b70f962d45d702792b49a66bb599"
+  integrity sha512-cDl67qENufmQaoGcKoK5BTNUBIf3RLKRxeR7EiGvwEUd9NhZyA++jORk9aDFBli3MK0rqkNONVBR77YwqnEYcw==
   dependencies:
     "@floating-ui/react" "^0.19.1"
     clsx "1.1.1"
@@ -2087,10 +2087,12 @@
     tslib "^2.5.2"
     type-fest "^3.6.1"
 
-"@mantine/hooks@7.0.0-alpha.9":
-  version "7.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.0.0-alpha.9.tgz#6d3eeb0a04442c4000d4112651eaf50e99df627f"
-  integrity sha512-IXTkPUkKpUkcrUk4ltHq/vpaJHv6esxUP7b7yWKG58Ovv86NNY7Y8J4FiIemIgh+XdT0UQnLdz/RgZNsykFpAQ==
+"@mantine/hooks@7.0.0-alpha.11":
+  version "7.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.0.0-alpha.11.tgz#8aa6b1b3e4dfdd48e71f8eb45038dfc4f142d237"
+  integrity sha512-khqXpE25L7A4S6q39y+Ky0T416AN5Q35oKqx2goaOwJOXyKq/QjwmQc5xpYMTgiba7wIEZzZO6FTNpovlUWiwg==
+  dependencies:
+    tslib "^2.5.2"
 
 "@mdx-js/react@^2.1.5":
   version "2.3.0"

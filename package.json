@@ -19,8 +19,8 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/core": "7.0.0-alpha.9",
-    "@mantine/hooks": "7.0.0-alpha.9",
+    "@mantine/core": "7.0.0-alpha.11",
+    "@mantine/hooks": "7.0.0-alpha.11",
     "@next/bundle-analyzer": "^13.4.4",
     "@tabler/icons-react": "^2.20.0",
     "cookies-next": "^2.1.1",
