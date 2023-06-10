@@ -9201,10 +9201,10 @@ postcss-nested@^6.0.1:
   dependencies:
     postcss-selector-parser "^6.0.11"
 
-postcss-preset-mantine@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/postcss-preset-mantine/-/postcss-preset-mantine-1.3.0.tgz#7008328ab4102a55c6ef7ad072a95287ea772828"
-  integrity sha512-aey6W/US0Ja3/nLrFP4L2uGgaT45qyALoNJXVhYrAD1B/dbckOzpjMekbTu8YHT0NTGdha0O4opWO4NEjtO6wA==
+postcss-preset-mantine@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/postcss-preset-mantine/-/postcss-preset-mantine-1.6.0.tgz#5f01b3cc7ff6ea746dbf15d70c918c587ee9dd1f"
+  integrity sha512-1HB4suDbgvFGIuzSEyz2rMelrsw1iIw2ityVtnkzVkLlePPnn670KsoHRD0r5g9+5u/xLapoQz0Rh8AVOR4nnQ==
   dependencies:
     postcss-mixins "^9.0.4"
     postcss-nested "^6.0.1"
