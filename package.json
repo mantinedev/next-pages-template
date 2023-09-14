@@ -23,7 +23,6 @@
     "@mantine/hooks": "7.0.0-beta.5",
     "@next/bundle-analyzer": "^13.4.4",
     "@tabler/icons-react": "^2.20.0",
-    "cookies-next": "^2.1.1",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
