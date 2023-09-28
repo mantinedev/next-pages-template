@@ -2083,10 +2083,10 @@
   resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
   integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
-"@mantine/core@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.0.1.tgz#b2436f883e0984698bfd068983488ea2c08bb36d"
-  integrity sha512-cQqQWo5uZy6G+5WwEFRt6hoHwADVRy0IQ4pW+dyhcfp1aHYHf9C1T2vP/naUZR3nczYr5j63ZVgiSwqQaqc17Q==
+"@mantine/core@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-7.1.0.tgz#06c1beaff53c06e4413ad87352edfd75e913440d"
+  integrity sha512-DNexnix5Lz7na8bfXCNVDsCsorxMzF1we3mtU33B0mLyiLkH47BhpgKNxvf5OjEK5SUJ0Bi7r5m91Tm7pmAB7w==
   dependencies:
     "@floating-ui/react" "^0.24.8"
     clsx "2.0.0"
@@ -2095,10 +2095,10 @@
     react-textarea-autosize "8.5.2"
     type-fest "^3.13.1"
 
-"@mantine/hooks@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.0.1.tgz#d1c1729b88d62604acb2143ffba8d41e47c6fd06"
-  integrity sha512-rPHghtUh1YYhArZzhVHMWEX4kWVieffuuaOGB8954Yyw0o1X7wIgQ35cVRS52CGtFbUToS7kaYSdxI0THkca/Q==
+"@mantine/hooks@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.1.0.tgz#44e43df2eff9785296b8507048fe425bd01091ec"
+  integrity sha512-XW8qYNoS81bIWmdI7yZV8BmBkTtr0//3fyBJ2dcKRSKWY5HVNPkLDXPQk9/E4bpQIRmufDGQ6pLmUfY+0VjO3g==
 
 "@mdx-js/react@^2.1.5":
   version "2.3.0"
