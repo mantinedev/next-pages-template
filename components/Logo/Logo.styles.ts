@@ -11,6 +11,10 @@ export const fill = keyframes({
 });
 
 export default createStyles(() => ({
+  logoContainer: {
+    // marginTop: '2rem', marginBottom: '2rem'
+  },
+
   path: {
     strokeDasharray: '2000',
     strokeDashoffset: 2000,

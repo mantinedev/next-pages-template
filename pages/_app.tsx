@@ -21,6 +21,11 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
         <title>Matthew Magnotta</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="shortcut icon" href="/favicon.svg" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Titillium%20Web
+          "
+        />
       </Head>
 
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
@@ -28,24 +33,29 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
           theme={{
             colorScheme,
             headings: {
-              // properties for all headings
-              fontWeight: 900,
-              fontFamily:
-                'Greycliff CF, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji',
-
-              // properties for individual headings, all of them are optional
+              fontFamily: 'Titillium Web, sans-serif',
               sizes: {
-                h1: { fontSize: '1.4rem' /* lineHeight: 1.4, */ },
-                h2: { fontSize: '1rem', fontWeight: 700, lineHeight: 1.4 },
-                h6: { fontWeight: 900 },
+                h1: {
+                  fontWeight: 1000,
+                  fontSize:'4rem'
+                  // fontWeight: CSSProperties['fontWeight'];
+                  // lineHeight: CSSProperties['lineHeight'];
+                },
               },
+            },
+            fontSizes: {
+              xs: '0.6rem',
+              sm: '.55rem',
+              md: '1.2rem',
+              lg: '1.2rem',
+              xl: '1.2rem',
             },
           }}
           withGlobalStyles
           withNormalizeCSS
         >
           <Component {...pageProps} />
-          <Notifications />
+          {/* <Notifications /> */}
         </MantineProvider>
       </ColorSchemeProvider>
     </>

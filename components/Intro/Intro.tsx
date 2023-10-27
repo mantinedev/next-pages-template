@@ -12,63 +12,60 @@ const Intro: FC = () => {
   const mediumScreen = useMediaQuery('(min-width: 48em)');
 
   return (
-    <Container>
-      {mediumScreen && (
-        <Box className={classes.logoHeading}>
-          <Text mr="1rem" component="span" className={classes.title}>
-            Matthew
-          </Text>
-          <Logo />
-
-          <Text ml="1rem" component="span" className={classes.title}>
-            Magnotta
+    <Container sx={{ maxWidth: '59rem' }}>
+      <Box sx={{ display: 'flex', alignItems: 'end' }}>
+        <Box>
+          <Title variant="h1" mb={'sm'}>
+            Hey, I'm Matthew.
+          </Title>
+          <Text>
+            I'm a{' '}
+            <Text fw={900} span>
+              Software Engineer
+            </Text>{' '}
+            based in Bend, Oregon with a love for
+            <Text fw={900} span>
+              {' '}
+              engineering and design.
+            </Text>
           </Text>
         </Box>
-      )}
-
-      <Title order={1} mt="lg" mb="xs">
-        Hey, I&apos;m Matthew. Nice to meet you! 🤝
-      </Title>
-      <Box className={classes.infoContainer}>
-        <IconLocation />
-        <Text ml="sm">Bend, Oregon</Text>
       </Box>
 
-      <Box className={classes.infoContainer}>
-        <IconDeviceLaptop />
-        <Text ml="sm">
-          Currently crafting at{' '}
-          <span>
-            <Anchor href="https://letshighlight.com/" target="_blank">
-              Highlight
-            </Anchor>
-          </span>
-        </Text>
-      </Box>
-
-      <Title order={1} mt="lg" mb="xs">
-        What do I do?
-      </Title>
-      <Text>
-        I specialize in building scalable web apps with expertise in Javascript, React, and a wide
-        range of front-end and back-end technologies. I&apos;m committed to writing clean,
-        well-documented code that uses the latest technologies and best practices to improve
-        performance and functionality.
+      <Text mt={'xl'}>
+        I currently crafting at Lets Highlight where I{' '}
+        <Text span strikethrough>
+          delete
+        </Text>{' '}
+        write lots of TypeScript and{' '}
+        <Text span strikethrough>
+          sometimes
+        </Text>{' '}
+        never break production.
       </Text>
 
-      <Title order={1} mt="lg" mb="xs">
-        What about when I&apos;m not working?
-      </Title>
-      <Text mb="md">
-        In my offtime, I spend most of my time in the backcountry with my pup and a camera. Here are
-        some of my favorite captures.
+      <Text mt={'xl'}>
+        I pride myself on being an engineer, as it allows me to approach challenges with a unique
+        blend of creativity and technical know-how. Unraveling complex problems and finding
+        innovative solutions is pretty cool to me.
       </Text>
-
-      <Box className={classes.imageContainer}>
-        <Image src="/waterfall.png" className={classes.image} alt="" width={10} height={10} />
-        <Image src="/rainier.png" className={classes.image} alt="" width={10} height={10} />
-        <Image src="/fire.png" className={classes.image} alt="" width={10} height={10} />
-      </Box>
+      <div>
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=mattymags&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false"
+          height="150"
+          alt="stats graph"
+        />
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs?username=mattymags&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false"
+          height="150"
+          alt="languages graph"
+        />
+        <img
+          src="https://streak-stats.demolab.com?user=mattymags&locale=en&mode=weekly&theme=tokyonight&hide_border=false&border_radius=5"
+          height="150"
+          alt="streak graph"
+        />
+      </div>
     </Container>
   );
 };

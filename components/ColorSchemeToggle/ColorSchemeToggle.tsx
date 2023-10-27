@@ -1,26 +1,42 @@
-import { ActionIcon, Group, useMantineColorScheme } from '@mantine/core';
-import { IconSun, IconMoonStars } from '@tabler/icons';
+import { useMantineColorScheme, Text, SimpleGrid } from '@mantine/core';
+import { useState } from 'react';
+import DarkModeToggle from 'react-dark-mode-toggle';
+import useStyles from './ColorSheme.styles';
+import classNames from 'classnames';
 
 export function ColorSchemeToggle() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  const [clicks, setClicks] = useState(0);
+  const { classes } = useStyles();
 
   return (
-    <Group position="right" mt="xl">
-      <ActionIcon
-        onClick={() => toggleColorScheme()}
-        size="xl"
-        sx={(theme) => ({
-          backgroundColor:
-            theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
-          color: theme.colorScheme === 'dark' ? theme.colors.yellow[4] : theme.colors.blue[6],
-        })}
-      >
-        {colorScheme === 'dark' ? (
-          <IconSun size={20} stroke={1.5} />
-        ) : (
-          <IconMoonStars size={20} stroke={1.5} />
-        )}
-      </ActionIcon>
-    </Group>
+    <div
+      onClick={() => setClicks(clicks + 1)}
+      style={{
+        display: 'flex',
+        alignItems: 'flex-end',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
+      }}
+    >
+      <DarkModeToggle
+        onChange={() => toggleColorScheme()}
+        checked={colorScheme === 'dark'}
+        size={80}
+      />
+      {clicks >= 5 && (
+        <div
+          style={{
+            justifyContent: 'center',
+            alignItems: 'center',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Text fz={'.7rem'}>Easy now, you're gonna break it.</Text>
+          <Text fz={'.7rem'}>{clicks} times so far</Text>
+        </div>
+      )}
+    </div>
   );
 }

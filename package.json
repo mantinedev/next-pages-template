@@ -31,11 +31,14 @@
     "@next/bundle-analyzer": "^13.1.6",
     "@tabler/icons": "^1.107.0",
     "@tabler/icons-react": "^2.4.0",
+    "classnames": "^2.3.2",
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.6",
     "embla-carousel-react": "^7.0.3",
+    "expo-dark-mode-switch": "^0.0.2",
     "next": "13.2.4",
     "react": "18.2.0",
+    "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
