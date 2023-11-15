@@ -9,7 +9,8 @@
     "start": "next start",
     "export": "next build && next export",
     "typecheck": "tsc --noEmit",
-    "lint": "next lint",
+    "lint": "next lint && npm run lint:stylelint",
+    "lint:stylelint": "stylelint '**/*.css' --cache",
     "jest": "jest",
     "jest:watch": "jest --watch",
     "prettier:check": "prettier --check \"**/*.{ts,tsx}\"",
@@ -64,6 +65,8 @@
     "prettier": "^3.0.3",
     "storybook": "^7.5.2",
     "storybook-dark-mode": "^3.0.1",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0",
     "ts-jest": "^29.1.1",
     "typescript": "5.2.2"
   },
