@@ -60,7 +60,7 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8.4.35",
-    "postcss-preset-mantine": "1.14.4",
+    "postcss-preset-mantine": "1.15.0",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.2.5",
     "storybook": "^8.0.0",
