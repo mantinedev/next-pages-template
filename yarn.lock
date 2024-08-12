@@ -3288,9 +3288,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:7.12.0":
-  version: 7.12.0
-  resolution: "@mantine/core@npm:7.12.0"
+"@mantine/core@npm:7.12.1":
+  version: 7.12.1
+  resolution: "@mantine/core@npm:7.12.1"
   dependencies:
     "@floating-ui/react": "npm:^0.26.9"
     clsx: "npm:^2.1.1"
@@ -3299,19 +3299,19 @@ __metadata:
     react-textarea-autosize: "npm:8.5.3"
     type-fest: "npm:^4.12.0"
   peerDependencies:
-    "@mantine/hooks": 7.12.0
+    "@mantine/hooks": 7.12.1
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 10c0/afd39a0202375aa709bf8e147326cabee65eaa8cd8a9c70830377f5f2612de58e0812837a4064ce346950e1406a5cd02147cac591f0f043ff2b464c69628004d
+  checksum: 10c0/26880601bbce7f5ccac8d72fd367c096e6a5e40a43b4e1718484297e5e9bd7b24472933bf8b8078e275530ebf08c7cd7e98f1fd7358a1b12287f5470829491b1
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:7.12.0":
-  version: 7.12.0
-  resolution: "@mantine/hooks@npm:7.12.0"
+"@mantine/hooks@npm:7.12.1":
+  version: 7.12.1
+  resolution: "@mantine/hooks@npm:7.12.1"
   peerDependencies:
     react: ^18.2.0
-  checksum: 10c0/f6004a2cb78c82d4cce2a576430021cd4caa84709714fa3e4aac35250aa61953ca65de0a72b6489665688a2731b2b052b1fb3dc872d592d7ec84c22d6e1d6fea
+  checksum: 10c0/ad5df6f52adf5338f9005c6974bd13d1e15e15a3ae80041e0e98417c10031a0a6edcfa9522c8bb459f745f0b8989dbf10fea77e540e990cc43a9aa67e9094fa3
   languageName: node
   linkType: hard
 
@@ -12326,8 +12326,8 @@ __metadata:
   resolution: "mantine-next-template@workspace:."
   dependencies:
     "@babel/core": "npm:^7.24.7"
-    "@mantine/core": "npm:7.12.0"
-    "@mantine/hooks": "npm:7.12.0"
+    "@mantine/core": "npm:7.12.1"
+    "@mantine/hooks": "npm:7.12.1"
     "@next/bundle-analyzer": "npm:^14.2.4"
     "@next/eslint-plugin-next": "npm:^14.2.4"
     "@storybook/addon-essentials": "npm:^8.1.10"
