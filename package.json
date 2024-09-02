@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@next/eslint-plugin-next": "^14.2.4",
     "@storybook/addon-essentials": "^8.1.10",
     "@storybook/addon-styling-webpack": "^1.0.0",
