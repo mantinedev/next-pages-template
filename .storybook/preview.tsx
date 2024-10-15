@@ -6,6 +6,13 @@ import { DARK_MODE_EVENT_NAME } from 'storybook-dark-mode';
 import { MantineProvider, useMantineColorScheme } from '@mantine/core';
 import { theme } from '../theme';
 
+export const parameters = {
+  layout: 'fullscreen',
+  options: {
+    showPanel: false,
+  },
+};
+
 const channel = addons.getChannel();
 
 function ColorSchemeWrapper({ children }: { children: React.ReactNode }) {
