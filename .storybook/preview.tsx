@@ -7,7 +7,7 @@ export const parameters = {
   layout: 'fullscreen',
   options: {
     showPanel: false,
-    storySort: (a, b) => a.title.localeCompare(b.title, undefined, { numeric: true }),
+    storySort: (a: any, b: any) => a.title.localeCompare(b.title, undefined, { numeric: true }),
   },
   backgrounds: { disable: true },
 };
