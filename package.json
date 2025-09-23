@@ -21,8 +21,8 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/core": "8.3.1",
-    "@mantine/hooks": "8.3.1",
+    "@mantine/core": "8.3.2",
+    "@mantine/hooks": "8.3.2",
     "@next/bundle-analyzer": "^15.5.3",
     "@tabler/icons-react": "^3.34.1",
     "next": "15.5.3",
