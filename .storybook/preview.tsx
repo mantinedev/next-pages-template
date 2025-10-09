@@ -7,7 +7,8 @@ export const parameters = {
   layout: 'fullscreen',
   options: {
     showPanel: false,
-    storySort: (a: any, b: any) => a.title.localeCompare(b.title, undefined, { numeric: true }),
+    // @ts-expect-error – storybook throws build error for (a: any, b: any)
+    storySort: (a, b) => a.title.localeCompare(b.title, undefined, { numeric: true }),
   },
   backgrounds: { disable: true },
 };
