@@ -43,7 +43,7 @@
     "@testing-library/user-event": "^14.6.1",
     "@types/eslint-plugin-jsx-a11y": "^6",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.7.1",
+    "@types/node": "^25.0.0",
     "@types/react": "19.2.7",
     "@types/react-dom": "^19.2.1",
     "babel-loader": "^10.0.0",
