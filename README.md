@@ -11,7 +11,7 @@ This template comes with the following features:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Storybook](https://storybook.js.org/)
 - [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+- Oxlint setup for TypeScript and React sources
 
 ## npm scripts
 
@@ -25,7 +25,7 @@ This template comes with the following features:
 ### Testing scripts
 
 - `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
+- `lint` – runs oxlint and stylelint
 - `format:test` – checks files with oxfmt
 - `jest` – runs jest tests
 - `jest:watch` – starts jest watch
