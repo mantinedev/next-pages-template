@@ -3032,29 +3032,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@mantine/core@npm:9.0.2"
+"@mantine/core@npm:9.1.0":
+  version: 9.1.0
+  resolution: "@mantine/core@npm:9.1.0"
   dependencies:
     "@floating-ui/react": "npm:^0.27.19"
     clsx: "npm:^2.1.1"
     react-number-format: "npm:^5.4.5"
     react-remove-scroll: "npm:^2.7.2"
-    type-fest: "npm:^5.5.0"
+    type-fest: "npm:^5.6.0"
   peerDependencies:
-    "@mantine/hooks": 9.0.2
+    "@mantine/hooks": 9.1.0
     react: ^19.2.0
     react-dom: ^19.2.0
-  checksum: 10c0/362352ea018c346e673abb9c37ca752fcdd5c0a5d3fb37f1d3a11bcf61452e66369bf9ef5be2289ae0291fb623ec6125a8701f645c7f569b96a76ca7bee7c49e
+  checksum: 10c0/f299c54441be1ab0a366d2043a50dff7014ecf65d1e5a7135c6f671b18c98a767c0d460e9656cbf8847ae30a7f5f513a374f66b0f46224a9e281476237295593
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@mantine/hooks@npm:9.0.2"
+"@mantine/hooks@npm:9.1.0":
+  version: 9.1.0
+  resolution: "@mantine/hooks@npm:9.1.0"
   peerDependencies:
     react: ^19.2.0
-  checksum: 10c0/6027bd5e8519d65e3906cfeb345317c502d148381ebaafe9a76766464d497c8d155a054b5dd7325e2757002b4334d2a31e38aefee9856167fe3f4dc3335534a3
+  checksum: 10c0/e781c2c95caf263ef8c20c4ff71ba19e0d33125d2fea0bfa2bf4c52708780930994194e377d25ccf57ce70f78efeb9e282a66cf7035220ec58f563e8266ff566
   languageName: node
   linkType: hard
 
@@ -8609,8 +8609,8 @@ __metadata:
   resolution: "mantine-next-template@workspace:."
   dependencies:
     "@babel/core": "npm:^7.28.4"
-    "@mantine/core": "npm:9.0.2"
-    "@mantine/hooks": "npm:9.0.2"
+    "@mantine/core": "npm:9.1.0"
+    "@mantine/hooks": "npm:9.1.0"
     "@next/bundle-analyzer": "npm:^16.0.0"
     "@storybook/addon-themes": "npm:^10.0.0"
     "@storybook/nextjs": "npm:^10.0.0"
@@ -11839,12 +11839,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^5.5.0":
-  version: 5.5.0
-  resolution: "type-fest@npm:5.5.0"
+"type-fest@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "type-fest@npm:5.6.0"
   dependencies:
     tagged-tag: "npm:^1.0.0"
-  checksum: 10c0/60bf79a8df45abf99490e3204eceb5cf7f915413f8a69fb578c75cab37ddcb7d29ee21f185f0e1617323ac0b2a441e001b8dc691e220d0b087e9c29ea205538c
+  checksum: 10c0/5468a8ffda7f3904e6f7bbd8069eb8b6dd4bd9156e206df7a01d09a73e28cd1afedf74ead9d0fc12841c8c90074194859feca240511c50800962fde1bd9ddcbc
   languageName: node
   linkType: hard
 
