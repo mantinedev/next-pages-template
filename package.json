@@ -45,7 +45,7 @@
     "babel-loader": "^10.0.0",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
-    "oxfmt": "^0.54.0",
+    "oxfmt": "^0.55.0",
     "oxlint": "^1.58.0",
     "postcss": "^8.5.6",
     "postcss-preset-mantine": "1.18.0",
@@ -56,5 +56,5 @@
     "ts-jest": "^29.4.4",
     "typescript": "6.0.3"
   },
-  "packageManager": "yarn@4.16.0"
+  "packageManager": "yarn@4.17.0"
 }
