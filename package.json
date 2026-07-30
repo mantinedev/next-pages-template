@@ -35,7 +35,7 @@
     "@storybook/nextjs": "^10.0.0",
     "@storybook/react": "^10.0.0",
     "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
     "@types/jest": "^30.0.0",
@@ -55,7 +55,7 @@
     "stylelint": "^17.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
     "ts-jest": "^29.4.4",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "yarn@4.17.1"
 }
