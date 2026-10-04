@@ -6,4 +6,7 @@ const withBundleAnalyzer = bundleAnalyzer({
 
 export default withBundleAnalyzer({
   reactStrictMode: false,
+  experimental: {
+    useTypeScriptCli: true,
+  },
 });
