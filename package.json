@@ -53,7 +53,7 @@
     "postcss-simple-vars": "^7.0.1",
     "storybook": "^10.0.0",
     "stylelint": "^18.0.0",
-    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-config-standard": "^41.0.0",
     "ts-jest": "^29.4.4",
     "typescript": "7.0.2"
   },
