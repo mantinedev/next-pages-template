@@ -26,10 +26,11 @@ This template comes with the following features:
 
 - `typecheck` – checks TypeScript types
 - `lint` – runs oxlint and stylelint
+- `knip` – checks for unused files, exports and dependencies
 - `format:test` – checks files with oxfmt
 - `jest` – runs jest tests
 - `jest:watch` – starts jest watch
-- `test` – runs `jest`, `format:test`, `lint` and `typecheck` scripts
+- `test` – generates Next.js types, then runs `format:test`, `lint`, `typecheck`, `knip` and `jest`
 
 ### Other scripts
 
