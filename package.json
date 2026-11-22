@@ -21,8 +21,8 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/core": "9.8.0",
-    "@mantine/hooks": "9.8.0",
+    "@mantine/core": "9.8.1",
+    "@mantine/hooks": "9.8.1",
     "@next/bundle-analyzer": "^16.0.0",
     "@tabler/icons-react": "^3.35.0",
     "next": "16.4.6",
@@ -46,7 +46,7 @@
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
     "oxc-config-mantine": "^1.0.0",
-    "oxfmt": "^0.78.0",
+    "oxfmt": "^0.79.0",
     "oxlint": "^1.70.0",
     "postcss": "^8.5.6",
     "postcss-preset-mantine": "1.18.0",
